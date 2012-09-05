@@ -1,0 +1,36 @@
+
+;; ----- smex-history -----
+(
+ slime-connect
+ byte-recompile-directory
+ package-list-packages
+ find-grep
+ emacs-lisp-byte-compile
+ package-refresh-contents
+ paredit-mode
+)
+
+;; ----- smex-data -----
+(
+ (package-list-packages . 17)
+ (enable-theme . 1)
+ (eval-buffer . 1)
+ (color-theme-solarized . 8)
+ (sort-lines . 1)
+ (find-grep . 7)
+ (global-rainbow-delimiters-mode . 2)
+ (color-theme-solarized-dark . 4)
+ (icomplete-mode . 1)
+ (scala-mode . 2)
+ (rainbow-delimiters-mode . 3)
+ (paredit-mode . 3)
+ (color-theme-solarized-light . 2)
+ (slime-connect . 21)
+ (slime . 4)
+ (nrepl . 2)
+ (nrepl-jack-in . 2)
+ (package-refresh-contents . 1)
+ (nrepl-eval-buffer . 1)
+ (emacs-lisp-byte-compile . 1)
+ (byte-recompile-directory . 2)
+)
